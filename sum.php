@@ -9,9 +9,7 @@ echo double(6);
 function add($a,$b) {
     return $a + $b;
 }
-$a = 4;
-$b = 6;
-echo add($a,$b);
+echo add(4,6);
 
 //3.配列の要素をすべてかけた結果を返す関数
 $array = array(1,3,5,7,9);

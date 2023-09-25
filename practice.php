@@ -4,11 +4,11 @@ echo 'hello php!';
 $a = 3;
 $b = 7;
 echo $a + $b;
-//2.8月を表示する
+//2.8月を表示する。　変数名と、要素番号の間の半角スペース削除　
 $array_month = [
     "1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"
     ];
-echo $array_month [7];
+echo $array_month[7];
 //3.名前’s World!を表示
 $hello = "Hello,";
 $name = "kumakubo";
@@ -18,7 +18,7 @@ echo $hello.$name.$world;
 $tech_boost = 'tech';
 $tech_boost .= '_boost';
 echo $tech_boost;
-//5.プログラムの修正　１２月を表示する
+//5.プログラムの修正　１２月を表示する。　変数名と、要素番号の間の半角スペース削除
 $_2018_calender = [
     "January" => "１月",
     "February" => "２月",
@@ -33,7 +33,7 @@ $_2018_calender = [
     "November" => "１１月",
     "December" => "１２月"
     ];
-echo $_2018_calender ["December"];
+echo $_2018_calender["December"];
 
 
 
