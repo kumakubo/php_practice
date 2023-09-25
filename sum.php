@@ -74,3 +74,4 @@ echo 'タイムスタンプ'.$timestamp;
 
 //dateを使う
 echo date("Y-m-d H:i:s");
+//test
